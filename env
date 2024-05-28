@@ -1,0 +1,6 @@
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_ORG_ID=your_openai_org_id
+DB_HOST=your_aws_rds_endpoint
+DB_NAME=your_db_name
+DB_USER=your_db_user
+DB_PASS=your_db_pass
