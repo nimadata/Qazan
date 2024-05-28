@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve stocksage
+After=network.target
+
+[Service]
+User=nima
+Group=www-data
+WorkingDirectory=/home/nima/stocksage
+Environment="PATH=/home/nima/stocksage/testenv/bin"
+ExecStart=/home/nima/stocksage/testenv/bin/gunicorn --workers 3 --bind unix:stocksage.sock -m 007 wsgi:app
+
+[Install]
+WantedBy=multi-user.target
