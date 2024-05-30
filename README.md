@@ -6,11 +6,14 @@ This repository hosts the Minimum Viable Product (MVP) of Qazan AI's future tech
 Qazan AI leverages cutting-edge artificial intelligence to analyze financial charts and offer actionable insights for investors. This MVP demonstrates our core functionality through a user-friendly web interface built with Flask and served by Nginx. Users can upload graphs of financial asset quotations and receive detailed AI-generated analyses to inform their investment decisions.
 
 ## ✨**Features**
-Upload Financial Charts: Users can upload images of financial asset charts directly through the web interface.
+### Upload Financial Charts: 
+Users can upload images of financial asset charts directly through the web interface.
 AI-Driven Analysis: The application utilizes OpenAI's GPT-4 to analyze uploaded charts and generate investment insights.
-Secure and Scalable Backend: Powered by Flask for the web server and PostgreSQL for database management.
-User-Friendly Interface: Intuitive web design for seamless user experience.
-Tech Stack
+### Secure and Scalable Backend: 
+Powered by Flask for the web server and PostgreSQL for database management.
+### User-Friendly Interface: 
+Intuitive web design for seamless user experience.
+### Tech Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Python, Flask
 AI Engine: OpenAI GPT-4
